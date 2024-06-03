@@ -1,0 +1,13 @@
+	for(Unit u){
+		u.idle()
+		u.build(Barracks,Right,1)
+	}
+	for(Unit u){
+		u.harvest(10)
+		u.train(Worker,Left,5)
+		u.train(Heavy,Right,2)
+		u.attack(MostHealthy)
+	}
+	for(Unit u){
+		u.train(Heavy,Left,10)
+	}

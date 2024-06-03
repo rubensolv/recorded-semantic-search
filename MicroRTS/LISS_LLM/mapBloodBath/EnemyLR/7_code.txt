@@ -1,0 +1,27 @@
+	for(Unit u){
+		u.harvest(2)
+		u.idle()
+	}
+	for(Unit u){
+		u.build(Barracks,Down,1)
+	}
+	for(Unit u){
+		if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+			u.harvest(7)
+		}
+	}
+	for(Unit u){
+		if(u.OpponentHasUnitInPlayerRange()) then {
+			e
+		} else {
+			u.moveToUnit(Enemy,Closest)
+		}
+	}
+	for(Unit u){
+		u.train(Worker,Right,5)
+		u.train(Heavy,Down,8)
+	}
+	for(Unit u){
+		u.moveAway()
+		u.moveToUnit(Enemy,Weakest)
+	}

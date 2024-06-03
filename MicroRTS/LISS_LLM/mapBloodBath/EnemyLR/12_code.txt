@@ -1,0 +1,26 @@
+	for(Unit u){
+		u.build(Barracks,Up,1)
+	}
+	for(Unit u){
+		for(Unit u){
+			u.harvest(25)
+		}
+		u.train(Worker,Down,5)
+		u.train(Heavy,EnemyDir,10)
+		if(u.OpponentHasUnitInPlayerRange()) then {
+			for(Unit u){
+				u.train(Ranged,Up,3)
+				u.idle()
+			}
+		}
+	}
+	for(Unit u){
+		u.attack(Closest)
+	}
+	for(Unit u){
+		for(Unit u){
+			u.train(Ranged,EnemyDir,10)
+			u.moveToUnit(Enemy,Closest)
+		}
+		u.moveToUnit(Ally,Farthest)
+	}

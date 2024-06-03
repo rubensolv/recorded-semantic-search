@@ -1,0 +1,13 @@
+	for(Unit u){
+		for(Unit u){
+			if(u.HasUnitThatKillsInOneAttack()) then {
+				u.build(Barracks,Right,7)
+			}
+		}
+		u.attack(Strongest)
+		for(Unit u){
+			u.train(Worker,Left,2)
+			u.train(Ranged,Down,10)
+			u.harvest(50)
+		}
+	}

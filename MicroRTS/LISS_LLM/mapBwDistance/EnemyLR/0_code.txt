@@ -1,0 +1,11 @@
+	for(Unit u){
+		u.build(Barracks,Left,1)
+		u.train(Heavy,EnemyDir,10)
+		u.train(Ranged,Left,10)
+		u.train(Worker,Right,4)
+		if(OpponentHasNumberOfUnits(Base,3)) then {
+			u.moveToUnit(Enemy,MostHealthy)
+		}
+		u.harvest(25)
+		u.attack(Closest)
+	}

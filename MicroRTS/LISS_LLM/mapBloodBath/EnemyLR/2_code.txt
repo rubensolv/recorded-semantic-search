@@ -1,0 +1,21 @@
+	for(Unit u){
+		for(Unit u){
+			if(u.canAttack()) then {
+				for(Unit u){
+					u.build(Barracks,Up,50)
+				}
+			}
+		}
+		for(Unit u){
+			u.train(Worker,Up,5)
+		}
+		u.attack(Closest)
+		for(Unit u){
+			u.harvest(5)
+		}
+		u.train(Ranged,Down,25)
+		for(Unit u){
+			u.train(Heavy,Left,9)
+		}
+		u.moveToUnit(Ally,Strongest)
+	}

@@ -1,0 +1,22 @@
+	for(Unit u){
+		for(Unit u){
+			u.build(Barracks,EnemyDir,1)
+		}
+		for(Unit u){
+			u.train(Heavy,EnemyDir,20)
+			u.harvest(50)
+		}
+		u.train(Ranged,Down,6)
+		for(Unit u){
+			if(u.canHarvest()) then {
+				u.moveToUnit(Ally,MostHealthy)
+			} else {
+				u.train(Worker,Down,5)
+				u.train(Light,EnemyDir,5)
+			}
+		}
+		for(Unit u){
+			u.moveToUnit(Enemy,Closest)
+			u.idle()
+		}
+	}

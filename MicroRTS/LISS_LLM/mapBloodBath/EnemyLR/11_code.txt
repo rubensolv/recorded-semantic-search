@@ -1,0 +1,21 @@
+	for(Unit u){
+		u.build(Barracks,Left,1)
+		if(u.HasUnitInOpponentRange()) then {
+			for(Unit u){
+				u.idle()
+			}
+		}
+	}
+	for(Unit u){
+		u.harvest(25)
+		u.train(Worker,Up,5)
+	}
+	for(Unit u){
+		u.train(Heavy,Right,10)
+		u.train(Light,EnemyDir,10)
+	}
+	for(Unit u){
+		u.moveToUnit(Enemy,MostHealthy)
+		u.train(Worker,EnemyDir,7)
+		u.attack(LessHealthy)
+	}

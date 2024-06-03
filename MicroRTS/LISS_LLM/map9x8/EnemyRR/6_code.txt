@@ -1,0 +1,8 @@
+	for(Unit u){
+		u.build(Barracks,Right,6)
+		u.train(Worker,Left,2)
+		u.harvest(25)
+		u.attack(Strongest)
+		u.moveToUnit(Enemy,Farthest)
+		u.train(Ranged,Left,5)
+	}

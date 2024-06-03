@@ -1,0 +1,13 @@
+	for(Unit u){
+		u.build(Barracks,Right,1)
+		u.train(Worker,Up,2)
+		u.train(Ranged,EnemyDir,2)
+		if(u.canHarvest()) then {
+			e
+		} else {
+			u.attack(Strongest)
+		}
+	}
+	for(Unit u){
+		u.harvest(4)
+	}

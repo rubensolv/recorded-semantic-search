@@ -1,0 +1,25 @@
+	for(Unit u){
+		u.harvest(1)
+		u.build(Barracks,Left,10)
+	}
+	for(Unit u){
+		u.attack(LessHealthy)
+		for(Unit u){
+			u.harvest(5)
+			u.idle()
+		}
+		if(u.isBuilder()) then {
+			e
+		} else {
+			u.moveToUnit(Ally,Weakest)
+		}
+	}
+	for(Unit u){
+		u.train(Heavy,Up,50)
+	}
+	for(Unit u){
+		u.train(Worker,Down,5)
+		for(Unit u){
+			u.moveToUnit(Enemy,Weakest)
+		}
+	}

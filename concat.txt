@@ -1,0 +1,1 @@
+for file in *.txt; do (cat "${file}"; echo) >> concatenated.txt; done

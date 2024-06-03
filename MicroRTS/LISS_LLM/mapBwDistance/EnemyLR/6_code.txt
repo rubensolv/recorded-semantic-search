@@ -1,0 +1,29 @@
+	for(Unit u){
+		u.idle()
+		u.train(Ranged,EnemyDir,20)
+		u.attack(Strongest)
+		for(Unit u){
+			u.train(Heavy,Left,25)
+		}
+		u.moveToUnit(Ally,Weakest)
+		for(Unit u){
+			if(u.canHarvest()) then {
+				for(Unit u){
+					u.attack(Weakest)
+					u.moveToUnit(Ally,Closest)
+					for(Unit u){
+						u.harvest(2)
+						u.idle()
+						if(OpponentHasNumberOfUnits(Heavy,1)) then {
+							u.attack(Closest)
+						}
+					}
+				}
+			} else {
+				u.attack(LessHealthy)
+			}
+			for(Unit u){
+				u.build(Barracks,Up,1)
+			}
+		}
+	}

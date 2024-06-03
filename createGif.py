@@ -28,12 +28,12 @@ def make_gif(frame_folder, number):
     frames = frames_selected
     frames.sort(key=lambda x: get_order(x.filename), reverse=False)
     frame_one = frames[0]
-    frame_one.save("MicroRTS/LLM/map9x8/EnemyRR/"+number+"_code.gif", format="GIF", append_images=frames,
+    frame_one.save("MicroRTS/LLM/mapBloodBath/EnemyLR/"+number+"_code.gif", format="GIF", append_images=frames,
                save_all=True, duration=0, optimize=True, loop=1)
     
 if __name__=="__main__":
     print("inside main")
-    for i in range(75,120):
-        path = "MicroRTS/LLM/map9x8/EnemyRR/"+str(i)+"_folderLog"
+    for i in range(0,20):
+        path = "MicroRTS/LLM/mapBloodBath/EnemyLR/"+str(i)+"_folderLog"
         make_gif(path, str(i))
         remove(path=path)

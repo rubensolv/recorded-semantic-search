@@ -1,0 +1,8 @@
+	for(Unit u){
+		u.train(Heavy,Up,4)
+		u.build(Barracks,EnemyDir,1)
+		u.idle()
+	}
+	for(Unit u){
+		u.attack(Weakest)
+	}
