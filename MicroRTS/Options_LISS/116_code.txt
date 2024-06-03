@@ -1,0 +1,15 @@
+		u.train(Heavy,Up,6)
+		if(u.HasUnitInOpponentRange()) then {
+			u.train(Light,Right,10)
+			u.train(Worker,Right,20)
+		}
+		u.attack(Weakest)
+		for(Unit u){
+			u.build(Barracks,EnemyDir,6)
+		}
+		u.train(Light,EnemyDir,2)
+		u.train(Light,Left,10)
+		for(Unit u){
+			u.harvest(2)
+		}
+		u.train(Worker,Right,2)

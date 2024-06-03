@@ -1,0 +1,5 @@
+		u.attack(Strongest)
+		for(Unit u){
+			u.train(Worker,Right,2)
+		}
+		u.train(Heavy,Up,8)

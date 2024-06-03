@@ -1,0 +1,15 @@
+		for(Unit u){
+			u.train(Worker,Down,2)
+		}
+		u.train(Heavy,Down,25)
+		u.build(Barracks,EnemyDir,8)
+		u.harvest(2)
+		if(u.HasUnitWithinDistanceFromOpponent(4)) then {
+			for(Unit u){
+				u.attack(Strongest)
+			}
+		} else {
+			for(Unit u){
+				u.idle()
+			}
+		}

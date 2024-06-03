@@ -1,3 +1,0 @@
-		for(Unit u){
-			u.attack(Closest)
-		}

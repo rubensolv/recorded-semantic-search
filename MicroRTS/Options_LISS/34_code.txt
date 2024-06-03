@@ -1,0 +1,7 @@
+		for(Unit u){
+			u.harvest(7)
+		}
+		if(u.canHarvest()) then {
+			u.idle()
+		}
+		u.idle()

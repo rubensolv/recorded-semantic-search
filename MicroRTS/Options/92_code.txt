@@ -1,5 +1,0 @@
-		for(Unit u){
-			u.harvest(1)
-			u.moveToUnit(Ally,Closest)
-			u.idle()
-		}

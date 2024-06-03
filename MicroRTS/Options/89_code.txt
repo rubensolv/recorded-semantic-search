@@ -1,7 +1,0 @@
-		for(Unit u){
-			u.train(Ranged,Right,10)
-			for(Unit u){
-				u.moveToUnit(Enemy,Closest)
-				u.idle()
-			}
-		}

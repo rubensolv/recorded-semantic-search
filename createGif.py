@@ -19,21 +19,22 @@ def get_order(name):
 
 def make_gif(frame_folder, number):
     frames = [Image.open(image) for image in glob.glob(f"{frame_folder}/*")]
-    frames_selected = []
-    frames_selected.append(frames[1])
-    for x in range(1,len(frames)):
-        if x%5 == 0:
-            frames_selected.append(frames[x])
-    frames_selected.append(frames[len(frames)-1])
-    frames = frames_selected
-    frames.sort(key=lambda x: get_order(x.filename), reverse=False)
-    frame_one = frames[0]
-    frame_one.save("MicroRTS/Options/"+number+"_code.gif", format="GIF", append_images=frames,
-               save_all=True, duration=0, optimize=True, loop=1)
+    if len(frames)>0:
+        frames_selected = []
+        frames_selected.append(frames[1])
+        for x in range(1,len(frames)):
+            if x%5 == 0:
+                frames_selected.append(frames[x])
+        frames_selected.append(frames[len(frames)-1])
+        frames = frames_selected
+        frames.sort(key=lambda x: get_order(x.filename), reverse=False)
+        frame_one = frames[0]
+        frame_one.save("MicroRTS/Options/"+number+"_code.gif", format="GIF", append_images=frames,
+                save_all=True, duration=0, optimize=True, loop=2)
     
 if __name__=="__main__":
     print("inside main")
-    for i in range(103,122):
+    for i in range(36,134):
         path = "MicroRTS/Options/"+str(i)+"_folderLog"
         make_gif(path, str(i))
         remove(path=path)

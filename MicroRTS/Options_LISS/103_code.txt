@@ -1,0 +1,10 @@
+		if(HasLessNumberOfUnits(Light,50)) then {
+			u.train(Light,Down,7)
+			u.harvest(7)
+			u.moveToUnit(Enemy,LessHealthy)
+			u.idle()
+			u.moveAway()
+			u.attack(MostHealthy)
+		} else {
+			u.moveToUnit(Ally,Weakest)
+		}

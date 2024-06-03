@@ -1,0 +1,9 @@
+		u.train(Worker,Up,100)
+		u.train(Light,EnemyDir,20)
+		for(Unit u){
+			for(Unit u){
+				u.build(Barracks,Left,5)
+				u.train(Heavy,Up,4)
+			}
+			u.attack(Closest)
+		}

@@ -1,0 +1,11 @@
+		for(Unit u){
+			u.attack(LessHealthy)
+			if(u.canHarvest()) then {
+				for(Unit u){
+					u.train(Worker,Left,3)
+					for(Unit u){
+						u.harvest(9)
+					}
+				}
+			}
+		}

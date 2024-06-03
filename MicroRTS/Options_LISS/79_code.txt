@@ -1,0 +1,4 @@
+		u.moveToUnit(Enemy,LessHealthy)
+		for(Unit u){
+			u.train(Ranged,Up,25)
+		}

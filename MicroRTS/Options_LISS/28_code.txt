@@ -1,0 +1,11 @@
+		for(Unit u){
+			u.harvest(1)
+		}
+		u.idle()
+		u.attack(Weakest)
+		u.train(Worker,Down,2)
+		if(u.isBuilder()) then {
+			if(HasNumberOfUnits(Light,4)) then {
+				u.moveToUnit(Enemy,MostHealthy)
+			}
+		}

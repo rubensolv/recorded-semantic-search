@@ -1,0 +1,15 @@
+		u.moveToUnit(Enemy,MostHealthy)
+		u.train(Light,Left,50)
+		if(u.canAttack()) then {
+			u.idle()
+		}
+		u.attack(LessHealthy)
+		u.moveToUnit(Ally,Weakest)
+		for(Unit u){
+			u.harvest(2)
+			u.idle()
+			u.harvest(3)
+			u.build(Barracks,Right,4)
+		}
+		u.moveToUnit(Enemy,MostHealthy)
+		u.train(Worker,Up,4)

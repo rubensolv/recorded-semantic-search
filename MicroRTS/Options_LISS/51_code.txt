@@ -1,0 +1,4 @@
+		u.harvest(1)
+		if(OpponentHasNumberOfUnits(Worker,10)) then {
+			u.moveToUnit(Enemy,Weakest)
+		}

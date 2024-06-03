@@ -1,0 +1,8 @@
+		if(u.isBuilder()) then {
+			for(Unit u){
+				u.train(Heavy,EnemyDir,25)
+			}
+		}
+		for(Unit u){
+			u.idle()
+		}

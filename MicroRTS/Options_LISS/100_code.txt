@@ -1,0 +1,10 @@
+		u.idle()
+		if(u.is(Base)) then {
+			for(Unit u){
+				u.attack(Closest)
+			}
+		}
+		u.attack(Closest)
+		for(Unit u){
+			u.harvest(15)
+		}

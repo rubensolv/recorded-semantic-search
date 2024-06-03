@@ -1,0 +1,9 @@
+		u.train(Worker,EnemyDir,15)
+		u.idle()
+		if(u.HasUnitThatKillsInOneAttack()) then {
+			u.build(Base,Right,15)
+		}
+		u.harvest(5)
+		u.attack(Weakest)
+		u.moveToUnit(Enemy,Closest)
+		u.moveToUnit(Ally,Farthest)

@@ -1,0 +1,16 @@
+		u.idle()
+		for(Unit u){
+			if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+				u.idle()
+			}
+		}
+		for(Unit u){
+			u.build(Barracks,Left,2)
+		}
+		if(u.OpponentHasUnitInPlayerRange()) then {
+			u.train(Worker,EnemyDir,25)
+		}
+		for(Unit u){
+			u.train(Light,Down,2)
+		}
+		u.train(Light,Down,5)

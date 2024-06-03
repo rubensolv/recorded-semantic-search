@@ -1,0 +1,10 @@
+		for(Unit u){
+			if(u.HasUnitThatKillsInOneAttack()) then {
+				for(Unit u){
+					u.train(Light,Left,20)
+				}
+				for(Unit u){
+					u.build(Barracks,Up,15)
+				}
+			}
+		}

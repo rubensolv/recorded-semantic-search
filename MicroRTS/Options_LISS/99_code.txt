@@ -1,0 +1,6 @@
+		for(Unit u){
+			if(u.isBuilder()) then {
+				u.idle()
+			}
+			u.attack(Closest)
+		}

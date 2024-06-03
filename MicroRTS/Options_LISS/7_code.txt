@@ -1,0 +1,7 @@
+		for(Unit u){
+			u.idle()
+		}
+		u.build(Barracks,EnemyDir,5)
+		u.moveToUnit(Enemy,MostHealthy)
+		u.moveToUnit(Enemy,Closest)
+		u.train(Worker,EnemyDir,7)

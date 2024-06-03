@@ -1,0 +1,10 @@
+		u.attack(MostHealthy)
+		for(Unit u){
+			if(u.canAttack()) then {
+				if(u.canHarvest()) then {
+					u.attack(Closest)
+				}
+				u.idle()
+			}
+		}
+		u.train(Heavy,Down,100)

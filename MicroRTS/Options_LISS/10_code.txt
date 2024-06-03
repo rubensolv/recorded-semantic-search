@@ -1,0 +1,15 @@
+		for(Unit u){
+			for(Unit u){
+				if(u.HasUnitWithinDistanceFromOpponent(5)) then {
+					u.attack(Closest)
+				} else {
+					u.train(Light,Right,25)
+					u.harvest(7)
+					u.moveAway()
+					u.build(Barracks,Up,15)
+				}
+				u.train(Worker,Left,4)
+				u.train(Worker,Up,10)
+			}
+			u.attack(Closest)
+		}

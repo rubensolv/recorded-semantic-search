@@ -1,0 +1,10 @@
+		for(Unit u){
+			u.train(Worker,Down,7)
+		}
+		for(Unit u){
+			u.idle()
+		}
+		for(Unit u){
+			u.harvest(1)
+			u.attack(Farthest)
+		}

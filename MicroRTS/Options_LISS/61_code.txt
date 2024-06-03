@@ -1,0 +1,8 @@
+		for(Unit u){
+			u.build(Barracks,Down,15)
+		}
+		u.attack(Closest)
+		u.train(Light,Left,50)
+		for(Unit u){
+			u.harvest(5)
+		}

@@ -1,4 +1,0 @@
-		for(Unit u){
-			u.build(Barracks,EnemyDir,1)
-			u.build(Base,EnemyDir,1)
-		}

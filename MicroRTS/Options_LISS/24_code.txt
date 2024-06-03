@@ -1,0 +1,11 @@
+		u.attack(MostHealthy)
+		u.train(Worker,EnemyDir,15)
+		u.moveToUnit(Ally,Farthest)
+		for(Unit u){
+			u.attack(LessHealthy)
+		}
+		u.moveToUnit(Enemy,Closest)
+		for(Unit u){
+			u.moveToUnit(Ally,Weakest)
+			u.moveToUnit(Ally,MostHealthy)
+		}

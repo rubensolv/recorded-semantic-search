@@ -1,0 +1,11 @@
+		for(Unit u){
+			u.build(Barracks,EnemyDir,15)
+			u.idle()
+		}
+		for(Unit u){
+			u.attack(Weakest)
+			for(Unit u){
+				u.train(Ranged,Left,4)
+				u.harvest(15)
+			}
+		}

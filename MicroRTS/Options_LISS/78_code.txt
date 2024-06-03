@@ -1,0 +1,7 @@
+		if(u.is(Barracks)) then {
+			u.moveToUnit(Ally,LessHealthy)
+		} else {
+			u.train(Worker,Left,9)
+		}
+		u.idle()
+		u.harvest(4)

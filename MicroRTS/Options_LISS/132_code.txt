@@ -1,0 +1,4 @@
+		u.train(Worker,Left,4)
+		for(Unit u){
+			u.harvest(2)
+		}

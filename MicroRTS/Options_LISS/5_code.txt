@@ -1,0 +1,13 @@
+		for(Unit u){
+			for(Unit u){
+				if(u.canAttack()) then {
+					u.attack(Weakest)
+				}
+			}
+			for(Unit u){
+				u.train(Light,Right,8)
+			}
+		}
+		if(HasNumberOfUnits(Heavy,9)) then {
+			u.moveToUnit(Enemy,Farthest)
+		}

@@ -1,0 +1,5 @@
+		if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+			for(Unit u){
+				u.build(Barracks,Down,1)
+			}
+		}

@@ -1,0 +1,21 @@
+		for(Unit u){
+			u.harvest(1)
+			u.idle()
+		}
+		for(Unit u){
+			u.build(Barracks,Up,15)
+		}
+		u.attack(LessHealthy)
+		for(Unit u){
+			u.train(Heavy,EnemyDir,20)
+		}
+		u.train(Worker,Up,2)
+		for(Unit u){
+			if(u.HasUnitWithinDistanceFromOpponent(2)) then {
+				for(Unit u){
+					u.harvest(25)
+				}
+			} else {
+				u.harvest(3)
+			}
+		}

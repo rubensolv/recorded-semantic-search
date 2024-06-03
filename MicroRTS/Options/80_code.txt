@@ -1,4 +1,0 @@
-		for(Unit u){
-			u.moveToUnit(Enemy,Weakest)
-			u.idle()
-		}

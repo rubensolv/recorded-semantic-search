@@ -1,0 +1,9 @@
+		u.idle()
+		u.train(Worker,EnemyDir,10)
+		u.harvest(5)
+		if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+			u.build(Barracks,Down,8)
+		} else {
+			u.train(Heavy,Down,7)
+		}
+		u.train(Ranged,Left,7)

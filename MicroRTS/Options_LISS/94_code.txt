@@ -1,0 +1,22 @@
+		u.moveToUnit(Enemy,Farthest)
+		for(Unit u){
+			u.build(Barracks,Up,9)
+			u.harvest(100)
+			u.idle()
+		}
+		for(Unit u){
+			if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+				u.moveToUnit(Ally,Weakest)
+			}
+			for(Unit u){
+				if(u.HasUnitWithinDistanceFromOpponent(15)) then {
+					u.moveToUnit(Enemy,LessHealthy)
+				}
+			}
+			if(u.HasUnitThatKillsInOneAttack()) then {
+				u.moveToUnit(Enemy,LessHealthy)
+			} else {
+				u.train(Heavy,Right,7)
+			}
+			u.attack(LessHealthy)
+		}

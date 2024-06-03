@@ -1,0 +1,19 @@
+		for(Unit u){
+			u.idle()
+			if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+				u.build(Barracks,Up,5)
+				for(Unit u){
+					u.build(Barracks,Right,25)
+				}
+			}
+			u.train(Heavy,Down,20)
+			u.harvest(10)
+			u.attack(Closest)
+			for(Unit u){
+				u.harvest(1)
+			}
+			u.train(Light,Up,4)
+		}
+		for(Unit u){
+			u.train(Worker,Up,2)
+		}

@@ -1,0 +1,6 @@
+		for(Unit u){
+			u.build(Barracks,Right,25)
+		}
+		u.idle()
+		u.harvest(1)
+		u.attack(LessHealthy)

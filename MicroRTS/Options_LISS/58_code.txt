@@ -1,0 +1,13 @@
+		u.train(Ranged,Down,100)
+		u.build(Barracks,EnemyDir,5)
+		for(Unit u){
+			u.idle()
+		}
+		for(Unit u){
+			u.train(Ranged,Down,4)
+		}
+		u.harvest(9)
+		u.moveToUnit(Enemy,MostHealthy)
+		for(Unit u){
+			u.train(Worker,Up,5)
+		}

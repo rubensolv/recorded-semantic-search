@@ -1,0 +1,10 @@
+		u.train(Light,Right,8)
+		if(HaveQtdUnitsAttacking(1)) then {
+			u.idle()
+		} else {
+			u.train(Worker,EnemyDir,9)
+		}
+		if(u.is(Light)) then {
+			u.moveToUnit(Enemy,Weakest)
+		}
+		u.harvest(2)

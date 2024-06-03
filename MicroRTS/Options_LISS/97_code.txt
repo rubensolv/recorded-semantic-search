@@ -1,0 +1,12 @@
+		for(Unit u){
+			if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+				u.harvest(7)
+			}
+			u.train(Worker,Left,4)
+			for(Unit u){
+				u.idle()
+			}
+			u.moveToUnit(Enemy,Weakest)
+			u.attack(MostHealthy)
+			u.train(Worker,Right,15)
+		}

@@ -1,0 +1,7 @@
+		for(Unit u){
+			if(u.canAttack()) then {
+				if(u.isBuilder()) then {
+					u.harvest(3)
+				}
+			}
+		}

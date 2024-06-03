@@ -1,0 +1,22 @@
+		u.attack(Strongest)
+		u.train(Worker,Up,2)
+		for(Unit u){
+			u.build(Barracks,Down,5)
+			for(Unit u){
+				u.train(Heavy,Right,100)
+			}
+		}
+		if(u.HasUnitWithinDistanceFromOpponent(3)) then {
+			for(Unit u){
+				if(u.HasUnitThatKillsInOneAttack()) then {
+					u.train(Light,Left,10)
+				}
+			}
+		}
+		for(Unit u){
+			u.attack(Weakest)
+			for(Unit u){
+				u.train(Light,Left,20)
+				u.harvest(7)
+			}
+		}

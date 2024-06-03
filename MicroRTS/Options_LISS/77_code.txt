@@ -1,0 +1,8 @@
+		if(u.HasUnitThatKillsInOneAttack()) then {
+			for(Unit u){
+				u.train(Worker,EnemyDir,8)
+			}
+		} else {
+			u.moveToUnit(Enemy,MostHealthy)
+			u.idle()
+		}

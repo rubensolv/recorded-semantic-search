@@ -1,0 +1,7 @@
+		u.harvest(50)
+		u.attack(LessHealthy)
+		u.train(Light,Left,5)
+		for(Unit u){
+			u.idle()
+		}
+		u.moveToUnit(Enemy,LessHealthy)

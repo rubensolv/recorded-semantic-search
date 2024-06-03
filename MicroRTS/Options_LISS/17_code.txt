@@ -1,0 +1,16 @@
+		for(Unit u){
+			for(Unit u){
+				u.build(Base,Left,6)
+			}
+			u.attack(Closest)
+			for(Unit u){
+				u.train(Heavy,Down,5)
+				u.build(Barracks,Left,1)
+			}
+			for(Unit u){
+				u.harvest(25)
+			}
+			u.moveToUnit(Ally,Closest)
+			u.train(Worker,Down,3)
+			u.moveToUnit(Ally,Strongest)
+		}

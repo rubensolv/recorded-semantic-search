@@ -1,0 +1,18 @@
+		for(Unit u){
+			for(Unit u){
+				if(u.is(Worker)) then {
+					u.harvest(2)
+				}
+			}
+			for(Unit u){
+				u.train(Worker,EnemyDir,100)
+				u.train(Ranged,EnemyDir,2)
+				for(Unit u){
+					for(Unit u){
+						u.build(Barracks,Left,5)
+						u.train(Heavy,Up,4)
+					}
+					u.attack(Closest)
+				}
+			}
+		}

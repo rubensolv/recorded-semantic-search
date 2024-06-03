@@ -1,0 +1,17 @@
+		u.attack(Closest)
+		for(Unit u){
+			u.build(Barracks,Right,2)
+			u.idle()
+			u.harvest(8)
+		}
+		if(u.isBuilder()) then {
+			for(Unit u){
+				u.attack(LessHealthy)
+			}
+		} else {
+			u.train(Ranged,Right,7)
+		}
+		for(Unit u){
+			u.train(Light,Left,10)
+		}
+		u.moveToUnit(Enemy,Closest)

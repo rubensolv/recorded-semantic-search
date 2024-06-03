@@ -1,0 +1,13 @@
+		for(Unit u){
+			u.build(Barracks,Right,2)
+		}
+		u.train(Worker,Right,3)
+		u.train(Ranged,Left,15)
+		for(Unit u){
+			u.idle()
+		}
+		if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+			u.harvest(4)
+			u.attack(Weakest)
+		}
+		u.train(Worker,EnemyDir,100)

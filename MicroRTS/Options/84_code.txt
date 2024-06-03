@@ -1,4 +1,0 @@
-		for(Unit u){
-			u.harvest(5)
-			u.attack(Closest)
-		}

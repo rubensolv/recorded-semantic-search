@@ -1,0 +1,12 @@
+		u.train(Worker,EnemyDir,7)
+		if(OpponentHasNumberOfUnits(Base,5)) then {
+			u.moveToUnit(Ally,MostHealthy)
+		}
+		for(Unit u){
+			if(u.HasUnitInOpponentRange()) then {
+				u.idle()
+			} else {
+				u.train(Heavy,Up,100)
+			}
+		}
+		u.harvest(2)

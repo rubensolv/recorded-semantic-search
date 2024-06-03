@@ -1,0 +1,11 @@
+		u.build(Base,EnemyDir,4)
+		u.train(Heavy,Down,20)
+		u.build(Barracks,EnemyDir,1)
+		u.harvest(25)
+		u.attack(Closest)
+		for(Unit u){
+			u.train(Worker,Up,2)
+		}
+		u.moveToUnit(Enemy,Closest)
+		u.moveToUnit(Enemy,Closest)
+		u.moveToUnit(Enemy,Weakest)

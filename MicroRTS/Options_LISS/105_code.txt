@@ -1,0 +1,6 @@
+		if(HaveQtdUnitsAttacking(1)) then {
+			u.moveToUnit(Enemy,Closest)
+		} else {
+			u.idle()
+			u.attack(Strongest)
+		}

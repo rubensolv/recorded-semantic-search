@@ -1,0 +1,7 @@
+		if(u.HasUnitInOpponentRange()) then {
+			for(Unit u){
+				for(Unit u){
+					u.idle()
+				}
+			}
+		}

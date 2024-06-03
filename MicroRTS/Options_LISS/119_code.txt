@@ -1,0 +1,5 @@
+		for(Unit u){
+			u.build(Barracks,Left,1)
+		}
+		u.idle()
+		u.train(Heavy,Left,6)

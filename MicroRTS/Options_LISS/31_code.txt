@@ -1,0 +1,6 @@
+		u.attack(Strongest)
+		for(Unit u){
+			u.harvest(1)
+		}
+		u.train(Worker,Left,9)
+		u.train(Worker,Down,15)

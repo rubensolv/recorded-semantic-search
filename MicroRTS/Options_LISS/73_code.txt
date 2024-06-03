@@ -1,0 +1,4 @@
+		u.harvest(2)
+		if(HasNumberOfUnits(Ranged,2)) then {
+			u.moveToUnit(Enemy,MostHealthy)
+		}

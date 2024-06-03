@@ -1,0 +1,10 @@
+		u.build(Barracks,EnemyDir,50)
+		u.harvest(10)
+		for(Unit u){
+			u.idle()
+		}
+		u.train(Heavy,Left,5)
+		u.train(Heavy,Right,15)
+		u.train(Worker,Right,2)
+		u.train(Light,Down,3)
+		u.attack(Weakest)

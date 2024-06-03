@@ -1,0 +1,5 @@
+		u.train(Heavy,Right,3)
+		u.build(Barracks,EnemyDir,50)
+		if(u.OpponentHasUnitInPlayerRange()) then {
+			u.idle()
+		}

@@ -1,0 +1,12 @@
+		u.train(Light,Right,25)
+		if(u.HasUnitThatKillsInOneAttack()) then {
+			for(Unit u){
+				if(u.HasUnitWithinDistanceFromOpponent(5)) then {
+					u.train(Light,Down,20)
+					for(Unit u){
+						u.moveToUnit(Enemy,Strongest)
+					}
+				}
+			}
+		}
+		u.moveToUnit(Enemy,MostHealthy)

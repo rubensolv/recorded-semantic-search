@@ -1,0 +1,5 @@
+		if(u.OpponentHasUnitInPlayerRange()) then {
+			u.idle()
+		} else {
+			u.harvest(50)
+		}

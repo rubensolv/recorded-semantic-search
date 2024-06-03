@@ -1,0 +1,4 @@
+		u.attack(Weakest)
+		if(u.HasUnitWithinDistanceFromOpponent(1)) then {
+			u.moveToUnit(Ally,Strongest)
+		}

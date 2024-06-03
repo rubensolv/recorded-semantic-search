@@ -1,0 +1,6 @@
+		for(Unit u){
+			u.harvest(3)
+		}
+		for(Unit u){
+			u.build(Barracks,EnemyDir,20)
+		}

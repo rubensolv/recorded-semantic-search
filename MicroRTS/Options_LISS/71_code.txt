@@ -1,0 +1,8 @@
+		u.attack(MostHealthy)
+		if(u.is(Heavy)) then {
+			u.moveToUnit(Ally,Closest)
+			u.moveToUnit(Ally,Farthest)
+		}
+		for(Unit u){
+			u.moveToUnit(Enemy,Strongest)
+		}

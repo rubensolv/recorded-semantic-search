@@ -1,0 +1,9 @@
+		for(Unit u){
+			u.train(Light,Up,20)
+		}
+		for(Unit u){
+			u.idle()
+		}
+		u.moveAway()
+		u.moveToUnit(Ally,Closest)
+		u.attack(Farthest)

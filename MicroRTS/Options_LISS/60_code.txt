@@ -1,0 +1,6 @@
+		if(u.canHarvest()) then {
+			u.harvest(4)
+			u.attack(Closest)
+		} else {
+			u.train(Worker,Down,50)
+		}

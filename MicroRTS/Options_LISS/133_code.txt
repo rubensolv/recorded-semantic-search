@@ -1,0 +1,8 @@
+		u.train(Worker,Right,5)
+		for(Unit u){
+			u.idle()
+		}
+		for(Unit u){
+			u.train(Heavy,Left,6)
+		}
+		u.train(Ranged,Left,4)

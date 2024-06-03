@@ -1,0 +1,6 @@
+		u.moveToUnit(Ally,Closest)
+		if(HasNumberOfUnits(Worker,50)) then {
+			for(Unit u){
+				u.moveToUnit(Ally,Farthest)
+			}
+		}

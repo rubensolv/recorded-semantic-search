@@ -1,0 +1,10 @@
+		u.train(Light,Right,100)
+		u.train(Worker,Down,3)
+		for(Unit u){
+			u.build(Barracks,EnemyDir,5)
+			u.harvest(8)
+			for(Unit u){
+				u.idle()
+			}
+			u.attack(Closest)
+		}

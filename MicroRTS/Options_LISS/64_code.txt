@@ -1,0 +1,10 @@
+		for(Unit u){
+			u.train(Light,EnemyDir,6)
+			u.idle()
+			u.harvest(2)
+			for(Unit u){
+				u.train(Worker,Left,6)
+				u.build(Barracks,Down,20)
+			}
+			u.attack(LessHealthy)
+		}

@@ -1,0 +1,7 @@
+		u.attack(Weakest)
+		for(Unit u){
+			for(Unit u){
+				u.harvest(3)
+			}
+			u.train(Worker,Left,7)
+		}

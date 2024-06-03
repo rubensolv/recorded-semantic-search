@@ -1,0 +1,6 @@
+		u.moveToUnit(Ally,LessHealthy)
+		u.attack(Weakest)
+		for(Unit u){
+			u.train(Worker,Left,20)
+			u.idle()
+		}

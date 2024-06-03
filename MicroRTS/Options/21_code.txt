@@ -1,5 +1,0 @@
-		for(Unit u){
-			u.train(Ranged,EnemyDir,10)
-			u.train(Heavy,EnemyDir,5)
-			u.train(Light,EnemyDir,5)
-		}

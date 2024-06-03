@@ -1,0 +1,7 @@
+		if(HaveQtdUnitsAttacking(6)) then {
+			if(u.canAttack()) then {
+				u.attack(LessHealthy)
+			}
+		} else {
+			u.harvest(50)
+		}

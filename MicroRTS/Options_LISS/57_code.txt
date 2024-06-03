@@ -1,0 +1,11 @@
+		for(Unit u){
+			u.harvest(3)
+			u.attack(LessHealthy)
+		}
+		u.moveToUnit(Ally,Farthest)
+		for(Unit u){
+			u.train(Heavy,EnemyDir,4)
+		}
+		for(Unit u){
+			u.moveToUnit(Ally,Farthest)
+		}

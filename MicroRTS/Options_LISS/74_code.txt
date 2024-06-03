@@ -1,0 +1,8 @@
+		u.attack(Farthest)
+		u.moveToUnit(Ally,LessHealthy)
+		u.train(Ranged,Left,1)
+		for(Unit u){
+			u.harvest(1)
+			u.build(Barracks,Down,20)
+		}
+		u.train(Light,Right,25)

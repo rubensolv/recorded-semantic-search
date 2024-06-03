@@ -1,0 +1,19 @@
+		for(Unit u){
+			u.train(Light,Left,6)
+			u.moveToUnit(Ally,Strongest)
+			for(Unit u){
+				for(Unit u){
+					u.build(Barracks,Up,9)
+					u.idle()
+				}
+			}
+			for(Unit u){
+				u.harvest(25)
+				u.attack(LessHealthy)
+			}
+			if(u.is(Base)) then {
+				u.moveToUnit(Enemy,Strongest)
+			} else {
+				u.train(Ranged,Left,6)
+			}
+		}

@@ -1,0 +1,14 @@
+		u.train(Worker,Left,2)
+		for(Unit u){
+			u.idle()
+		}
+		u.moveToUnit(Enemy,MostHealthy)
+		u.moveToUnit(Ally,Strongest)
+		for(Unit u){
+			u.train(Light,Down,50)
+			u.harvest(1)
+			u.build(Barracks,Right,10)
+		}
+		for(Unit u){
+			u.harvest(9)
+		}

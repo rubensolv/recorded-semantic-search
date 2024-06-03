@@ -1,0 +1,4 @@
+		u.harvest(25)
+		if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+			u.train(Ranged,EnemyDir,8)
+		}

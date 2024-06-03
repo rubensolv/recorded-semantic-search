@@ -1,0 +1,14 @@
+		for(Unit u){
+			u.train(Worker,Left,7)
+			if(u.HasUnitWithinDistanceFromOpponent(7)) then {
+				u.train(Heavy,Down,1)
+			} else {
+				u.build(Barracks,Up,50)
+			}
+			if(u.canAttack()) then {
+				u.harvest(4)
+				u.attack(MostHealthy)
+			} else {
+				u.train(Heavy,Right,100)
+			}
+		}

@@ -1,0 +1,6 @@
+		for(Unit u){
+			u.idle()
+			u.harvest(4)
+		}
+		u.moveToUnit(Enemy,MostHealthy)
+		u.moveToUnit(Ally,Closest)

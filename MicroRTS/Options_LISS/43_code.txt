@@ -1,0 +1,8 @@
+		for(Unit u){
+			u.train(Worker,Right,2)
+			if(u.HasUnitWithinDistanceFromOpponent(1)) then {
+				for(Unit u){
+					u.harvest(1)
+				}
+			}
+		}

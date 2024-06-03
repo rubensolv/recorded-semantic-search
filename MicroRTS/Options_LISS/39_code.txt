@@ -1,0 +1,3 @@
+		if(OpponentHasNumberOfUnits(Heavy,9)) then {
+			u.moveToUnit(Enemy,Farthest)
+		}

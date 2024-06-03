@@ -1,0 +1,6 @@
+		for(Unit u){
+			for(Unit u){
+				u.train(Worker,Down,5)
+			}
+			u.attack(LessHealthy)
+		}

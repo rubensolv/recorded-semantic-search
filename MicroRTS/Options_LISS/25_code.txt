@@ -1,0 +1,13 @@
+		if(HaveQtdUnitsAttacking(2)) then {
+			u.attack(Closest)
+			for(Unit u){
+				u.build(Base,Left,2)
+			}
+		} else {
+			u.harvest(5)
+			u.attack(Strongest)
+		}
+		for(Unit u){
+			u.idle()
+		}
+		u.train(Worker,Left,100)

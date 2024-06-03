@@ -1,0 +1,6 @@
+		for(Unit u){
+			u.idle()
+		}
+		for(Unit u){
+			u.harvest(2)
+		}

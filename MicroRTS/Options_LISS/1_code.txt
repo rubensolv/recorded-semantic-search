@@ -1,0 +1,6 @@
+		if(u.HasUnitWithinDistanceFromOpponent(15)) then {
+			u.harvest(5)
+		}
+		if(u.canAttack()) then {
+			u.attack(Closest)
+		}

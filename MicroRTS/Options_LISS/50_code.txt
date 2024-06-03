@@ -1,0 +1,7 @@
+		if(HasNumberOfWorkersHarvesting(10)) then {
+			if(HasLessNumberOfUnits(Light,7)) then {
+				u.moveToUnit(Ally,LessHealthy)
+			} else {
+				u.moveToUnit(Enemy,Closest)
+			}
+		}

@@ -1,5 +1,0 @@
-		for(Unit u){
-			u.moveToUnit(Enemy,Closest)
-			u.idle()
-			u.harvest(1)
-		}

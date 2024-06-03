@@ -1,0 +1,5 @@
+		for(Unit u){
+			u.idle()
+		}
+		u.train(Light,Up,4)
+		u.moveAway()

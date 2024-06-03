@@ -1,0 +1,9 @@
+		for(Unit u){
+			if(u.canAttack()) then {
+				u.build(Barracks,Up,9)
+				u.harvest(15)
+				u.idle()
+				u.attack(Strongest)
+				u.moveToUnit(Enemy,Weakest)
+			}
+		}

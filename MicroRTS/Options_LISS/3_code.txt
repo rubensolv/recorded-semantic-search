@@ -1,0 +1,15 @@
+		for(Unit u){
+			u.harvest(2)
+		}
+		for(Unit u){
+			if(u.HasUnitWithinDistanceFromOpponent(8)) then {
+				u.attack(Closest)
+				for(Unit u){
+					u.harvest(15)
+				}
+			}
+		}
+		u.build(Barracks,EnemyDir,25)
+		u.train(Light,Down,25)
+		u.harvest(5)
+		u.moveToUnit(Ally,Strongest)

@@ -1,0 +1,3 @@
+		if(u.canAttack()) then {
+			u.moveToUnit(Ally,LessHealthy)
+		}

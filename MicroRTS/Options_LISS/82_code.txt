@@ -1,0 +1,11 @@
+		for(Unit u){
+			u.attack(Strongest)
+			for(Unit u){
+				u.harvest(1)
+			}
+			u.train(Worker,Left,4)
+			if(u.canHarvest()) then {
+				u.moveToUnit(Ally,MostHealthy)
+			}
+			u.train(Worker,Down,15)
+		}

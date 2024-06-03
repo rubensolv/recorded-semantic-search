@@ -1,0 +1,23 @@
+		for(Unit u){
+			u.train(Heavy,Up,50)
+			u.train(Worker,EnemyDir,5)
+			u.harvest(3)
+		}
+		for(Unit u){
+			u.train(Ranged,Down,5)
+			if(u.canHarvest()) then {
+				u.moveToUnit(Ally,Closest)
+			}
+			for(Unit u){
+				u.build(Barracks,Right,15)
+				u.idle()
+				if(HaveQtdUnitsAttacking(9)) then {
+					if(u.canAttack()) then {
+						u.moveToUnit(Ally,MostHealthy)
+					}
+				} else {
+					u.harvest(50)
+				}
+				u.attack(Closest)
+			}
+		}

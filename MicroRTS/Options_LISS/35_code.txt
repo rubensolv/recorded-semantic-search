@@ -1,0 +1,12 @@
+		for(Unit u){
+			u.attack(Strongest)
+			for(Unit u){
+				u.idle()
+				u.harvest(2)
+				u.train(Worker,EnemyDir,3)
+			}
+			for(Unit u){
+				u.build(Barracks,Right,2)
+				u.train(Light,Down,7)
+			}
+		}

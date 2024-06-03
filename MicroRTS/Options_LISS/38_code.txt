@@ -1,0 +1,3 @@
+		for(Unit u){
+			u.train(Ranged,Right,15)
+		}

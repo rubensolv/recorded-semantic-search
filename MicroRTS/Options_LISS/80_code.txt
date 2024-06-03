@@ -1,0 +1,4 @@
+		u.harvest(3)
+		if(u.canAttack()) then {
+			u.moveToUnit(Enemy,Closest)
+		}

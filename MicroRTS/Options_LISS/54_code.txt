@@ -1,0 +1,7 @@
+		for(Unit u){
+			if(u.OpponentHasUnitInPlayerRange()) then {
+				for(Unit u){
+					u.moveToUnit(Ally,Weakest)
+				}
+			}
+		}

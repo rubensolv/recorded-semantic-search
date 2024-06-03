@@ -1,0 +1,6 @@
+		for(Unit u){
+			u.moveToUnit(Ally,Weakest)
+			for(Unit u){
+				u.train(Worker,Up,9)
+			}
+		}

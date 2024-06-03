@@ -1,0 +1,14 @@
+		for(Unit u){
+			u.train(Worker,EnemyDir,50)
+			for(Unit u){
+				u.harvest(3)
+			}
+			u.idle()
+		}
+		for(Unit u){
+			u.moveAway()
+			u.attack(Closest)
+		}
+		for(Unit u){
+			u.moveToUnit(Enemy,MostHealthy)
+		}

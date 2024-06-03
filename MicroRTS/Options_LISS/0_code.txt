@@ -1,0 +1,11 @@
+		u.moveToUnit(Ally,Farthest)
+		u.attack(Strongest)
+		for(Unit u){
+			u.harvest(4)
+		}
+		u.train(Worker,Right,100)
+		u.moveToUnit(Ally,Farthest)
+		for(Unit u){
+			u.moveToUnit(Enemy,LessHealthy)
+		}
+		u.moveToUnit(Ally,Closest)

@@ -1,0 +1,10 @@
+		if(u.HasUnitWithinDistanceFromOpponent(5)) then {
+			u.attack(Closest)
+		} else {
+			u.train(Worker,EnemyDir,3)
+			u.train(Worker,Left,25)
+			u.train(Light,Right,25)
+			u.harvest(6)
+			u.build(Barracks,Up,15)
+		}
+		u.train(Worker,Up,10)

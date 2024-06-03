@@ -1,0 +1,5 @@
+		for(Unit u){
+			if(OpponentHasNumberOfUnits(Barracks,50)) then {
+				u.moveToUnit(Enemy,MostHealthy)
+			}
+		}
