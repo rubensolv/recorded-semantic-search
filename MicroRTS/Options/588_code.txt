@@ -1,0 +1,10 @@
+		for(Unit u){
+			u.train(Worker,Up,5)
+			u.train(Ranged,Up,5)
+			u.train(Heavy,Up,5)
+			for(Unit u){
+				u.moveToUnit(Enemy,LessHealthy)
+				u.idle()
+				u.moveAway()
+			}
+		}

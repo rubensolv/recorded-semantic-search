@@ -1,0 +1,4 @@
+		for(Unit u){
+			u.train(Worker,Up,2)
+			u.train(Ranged,EnemyDir,5)
+		}

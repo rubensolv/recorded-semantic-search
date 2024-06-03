@@ -1,0 +1,7 @@
+		u.harvest(5)
+		u.train(Ranged,Up,10)
+		u.train(Ranged,Right,10)
+		for(Unit u){
+			u.moveToUnit(Enemy,Closest)
+			u.idle()
+		}

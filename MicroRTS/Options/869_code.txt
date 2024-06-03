@@ -1,0 +1,12 @@
+		u.moveToUnit(Enemy,Closest)
+		u.idle()
+		for(Unit u){
+			u.train(Heavy,Up,5)
+			u.train(Heavy,Down,5)
+			u.train(Heavy,Left,5)
+			u.train(Heavy,Right,5)
+			for(Unit u){
+				u.moveToUnit(Enemy,Strongest)
+				u.idle()
+			}
+		}

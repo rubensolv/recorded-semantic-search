@@ -1,0 +1,8 @@
+		u.build(Barracks,Right,1)
+		u.train(Worker,Down,1)
+		u.train(Heavy,EnemyDir,10)
+		for(Unit u){
+			u.moveToUnit(Ally,Closest)
+			u.idle()
+			u.moveAway()
+		}

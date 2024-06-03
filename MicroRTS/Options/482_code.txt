@@ -1,0 +1,10 @@
+		for(Unit u){
+			u.harvest(1)
+			for(Unit u){
+				u.moveToUnit(Enemy,Closest)
+				for(Unit u){
+					u.idle()
+					u.moveAway()
+				}
+			}
+		}

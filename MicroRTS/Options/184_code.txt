@@ -1,0 +1,64 @@
+		for(Unit u){
+			u.harvest(2)
+			u.idle()
+			for(Unit u){
+				u.moveToUnit(Enemy,Closest)
+				u.idle()
+				for(Unit u){
+					u.train(Worker,Up,1)
+					u.train(Ranged,Up,1)
+					u.build(Barracks,Up,1)
+					u.train(Heavy,Up,1)
+					u.harvest(2)
+					u.idle()
+				}
+			}
+		}
+		for(Unit u){
+			u.harvest(2)
+			u.idle()
+			for(Unit u){
+				u.moveToUnit(Enemy,Closest)
+				u.idle()
+				for(Unit u){
+					u.train(Worker,Down,1)
+					u.train(Ranged,Down,1)
+					u.build(Barracks,Down,1)
+					u.train(Heavy,Down,1)
+					u.harvest(2)
+					u.idle()
+				}
+			}
+		}
+		for(Unit u){
+			u.harvest(2)
+			u.idle()
+			for(Unit u){
+				u.moveToUnit(Enemy,Closest)
+				u.idle()
+				for(Unit u){
+					u.train(Worker,Right,1)
+					u.train(Ranged,Right,1)
+					u.build(Barracks,Right,1)
+					u.train(Heavy,Right,1)
+					u.harvest(2)
+					u.idle()
+				}
+			}
+		}
+		for(Unit u){
+			u.harvest(2)
+			u.idle()
+			for(Unit u){
+				u.moveToUnit(Enemy,Closest)
+				u.idle()
+				for(Unit u){
+					u.train(Worker,Left,1)
+					u.train(Ranged,Left,1)
+					u.build(Barracks,Left,1)
+					u.train(Heavy,Left,1)
+					u.harvest(2)
+					u.idle()
+				}
+			}
+		}

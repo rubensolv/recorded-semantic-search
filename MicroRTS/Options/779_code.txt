@@ -1,0 +1,10 @@
+		u.train(Worker,Up,2)
+		u.moveToUnit(Ally,Closest)
+		for(Unit u){
+			u.build(Base,Right,1)
+			u.train(Ranged,Left,5)
+			for(Unit u){
+				u.moveToUnit(Enemy,MostHealthy)
+				u.idle()
+			}
+		}

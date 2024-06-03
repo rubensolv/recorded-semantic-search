@@ -1,0 +1,5 @@
+		for(Unit u){
+			u.attack(Closest)
+			u.idle()
+			u.moveAway()
+		}

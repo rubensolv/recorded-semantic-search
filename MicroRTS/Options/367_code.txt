@@ -1,0 +1,8 @@
+		for(Unit u){
+			u.moveToUnit(Ally,Closest)
+			u.idle()
+			for(Unit u){
+				u.moveToUnit(Enemy,Closest)
+				u.idle()
+			}
+		}

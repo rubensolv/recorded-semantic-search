@@ -1,0 +1,9 @@
+		for(Unit u){
+			u.harvest(1)
+			u.moveToUnit(Ally,Closest)
+			u.idle()
+		}
+		for(Unit u){
+			u.build(Barracks,Down,1)
+			u.build(Base,Down,1)
+		}

@@ -1,0 +1,4 @@
+		u.idle()
+		for(Unit u){
+			u.moveAway()
+		}

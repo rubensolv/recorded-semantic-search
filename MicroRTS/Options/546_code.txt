@@ -1,0 +1,7 @@
+		u.train(Worker,Right,5)
+		u.train(Ranged,Down,5)
+		for(Unit u){
+			u.moveToUnit(Enemy,Closest)
+			u.idle()
+			u.moveAway()
+		}

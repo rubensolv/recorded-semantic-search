@@ -1,0 +1,5 @@
+		u.train(Heavy,EnemyDir,3)
+		for(Unit u){
+			u.moveToUnit(Enemy,LessHealthy)
+			u.idle()
+		}

@@ -1,0 +1,9 @@
+		for(Unit u){
+			u.harvest(5)
+			u.build(Barracks,Down,1)
+			u.train(Worker,Down,5)
+		}
+		for(Unit u){
+			u.train(Ranged,EnemyDir,10)
+			u.train(Heavy,EnemyDir,5)
+		}

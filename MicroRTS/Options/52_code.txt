@@ -1,0 +1,7 @@
+		u.moveToUnit(Enemy,Closest)
+		u.idle()
+		u.moveAway()
+		for(Unit u){
+			u.harvest(5)
+			u.attack(Closest)
+		}

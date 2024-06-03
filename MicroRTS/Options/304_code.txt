@@ -1,0 +1,3 @@
+		for(Unit u){
+			u.train(Worker,EnemyDir,10)
+		}

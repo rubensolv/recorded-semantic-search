@@ -1,0 +1,9 @@
+		u.train(Worker,Up,5)
+		u.train(Ranged,Down,5)
+		u.train(Heavy,Right,5)
+		u.train(Light,Left,5)
+		for(Unit u){
+			u.moveToUnit(Ally,Closest)
+			u.idle()
+			u.moveAway()
+		}

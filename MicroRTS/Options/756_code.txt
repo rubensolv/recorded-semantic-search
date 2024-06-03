@@ -1,0 +1,6 @@
+		u.idle()
+		u.moveToUnit(Enemy,Closest)
+		for(Unit u){
+			u.attack(Weakest)
+			u.moveAway()
+		}

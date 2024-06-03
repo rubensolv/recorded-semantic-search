@@ -1,0 +1,10 @@
+		for(Unit u){
+			u.moveAway()
+			for(Unit u){
+				u.train(Ranged,EnemyDir,5)
+				u.train(Heavy,EnemyDir,5)
+				u.train(Light,EnemyDir,5)
+				u.moveToUnit(Enemy,Strongest)
+				u.idle()
+			}
+		}

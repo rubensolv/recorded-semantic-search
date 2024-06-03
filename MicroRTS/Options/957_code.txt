@@ -1,0 +1,6 @@
+		for(Unit u){
+			u.moveToUnit(Enemy,Closest)
+			u.attack(Closest)
+		}
+		u.train(Heavy,EnemyDir,5)
+		u.moveAway()

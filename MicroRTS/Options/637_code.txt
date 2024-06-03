@@ -1,0 +1,6 @@
+		for(Unit u){
+			u.train(Worker,Down,2)
+			u.train(Ranged,Down,2)
+			u.train(Light,Down,2)
+			u.train(Heavy,Down,2)
+		}

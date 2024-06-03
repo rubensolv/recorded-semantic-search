@@ -1,0 +1,4 @@
+		for(Unit u){
+			u.build(Barracks,Down,1)
+			u.train(Worker,Down,5)
+		}

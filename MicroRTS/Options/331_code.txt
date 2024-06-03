@@ -1,0 +1,11 @@
+		for(Unit u){
+			u.build(Barracks,Up,1)
+			u.train(Heavy,Down,10)
+			u.train(Ranged,Down,10)
+			u.train(Light,Down,10)
+			for(Unit u){
+				u.moveToUnit(Enemy,Weakest)
+				u.idle()
+				u.moveAway()
+			}
+		}

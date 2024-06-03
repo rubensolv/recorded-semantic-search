@@ -1,0 +1,4 @@
+		for(Unit u){
+			u.train(Ranged,EnemyDir,5)
+			u.train(Heavy,EnemyDir,5)
+		}

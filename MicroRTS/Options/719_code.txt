@@ -1,0 +1,7 @@
+		u.train(Worker,Up,3)
+		for(Unit u){
+			u.build(Base,Right,1)
+			for(Unit u){
+				u.harvest(3)
+			}
+		}

@@ -1,0 +1,5 @@
+		for(Unit u){
+			u.harvest(1)
+			u.build(Barracks,EnemyDir,1)
+			u.train(Worker,EnemyDir,1)
+		}

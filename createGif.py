@@ -33,7 +33,7 @@ def make_gif(frame_folder, number):
     
 if __name__=="__main__":
     print("inside main")
-    for i in range(100,106):
+    for i in range(103,122):
         path = "MicroRTS/Options/"+str(i)+"_folderLog"
         make_gif(path, str(i))
         remove(path=path)

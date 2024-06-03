@@ -1,0 +1,25 @@
+		for(Unit u){
+			u.build(Barracks,Up,1)
+			u.build(Barracks,Down,1)
+			u.build(Barracks,Left,1)
+			u.build(Barracks,Right,1)
+			for(Unit u){
+				u.train(Worker,Up,10)
+				u.train(Worker,Down,10)
+				u.train(Worker,Left,10)
+				u.train(Worker,Right,10)
+				for(Unit u){
+					u.harvest(5)
+					for(Unit u){
+						u.train(Ranged,Up,5)
+						u.train(Ranged,Down,5)
+						u.train(Ranged,Left,5)
+						u.train(Ranged,Right,5)
+						for(Unit u){
+							u.moveToUnit(Enemy,Closest)
+							u.idle()
+						}
+					}
+				}
+			}
+		}

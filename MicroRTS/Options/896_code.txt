@@ -1,0 +1,9 @@
+		for(Unit u){
+			u.moveToUnit(Ally,Closest)
+			for(Unit u){
+				u.attack(Strongest)
+				for(Unit u){
+					u.idle()
+				}
+			}
+		}

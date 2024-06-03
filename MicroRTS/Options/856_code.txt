@@ -1,0 +1,23 @@
+		for(Unit u){
+			u.harvest(5)
+			for(Unit u){
+				u.train(Ranged,Up,10)
+				u.train(Ranged,Down,10)
+				u.train(Ranged,Left,10)
+				u.train(Ranged,Right,10)
+				for(Unit u){
+					u.moveToUnit(Enemy,Closest)
+					u.idle()
+					for(Unit u){
+						u.train(Heavy,Up,5)
+						u.train(Heavy,Down,5)
+						u.train(Heavy,Left,5)
+						u.train(Heavy,Right,5)
+						for(Unit u){
+							u.moveToUnit(Enemy,Strongest)
+							u.idle()
+						}
+					}
+				}
+			}
+		}

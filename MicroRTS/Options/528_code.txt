@@ -1,0 +1,6 @@
+		for(Unit u){
+			u.harvest(5)
+		}
+		for(Unit u){
+			u.build(Barracks,Right,1)
+		}

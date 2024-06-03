@@ -1,0 +1,5 @@
+		for(Unit u){
+			u.train(Light,EnemyDir,10)
+			u.train(Ranged,EnemyDir,10)
+			u.build(Barracks,Up,1)
+		}

@@ -1,0 +1,4 @@
+		for(Unit u){
+			u.build(Barracks,Up,1)
+			u.build(Barracks,Down,1)
+		}

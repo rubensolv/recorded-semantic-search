@@ -1,0 +1,4 @@
+		for(Unit u){
+			u.train(Worker,Up,5)
+			u.train(Worker,Down,5)
+		}

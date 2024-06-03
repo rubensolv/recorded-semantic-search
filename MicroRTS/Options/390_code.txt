@@ -1,0 +1,8 @@
+		for(Unit u){
+			u.harvest(5)
+			u.moveToUnit(Ally,Closest)
+		}
+		u.build(Barracks,Up,1)
+		u.train(Worker,Down,5)
+		u.train(Light,Right,10)
+		u.idle()

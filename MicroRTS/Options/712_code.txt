@@ -1,0 +1,4 @@
+		for(Unit u){
+			u.attack(Closest)
+			u.moveAway()
+		}

@@ -1,0 +1,9 @@
+		u.moveToUnit(Ally,Closest)
+		for(Unit u){
+			u.build(Barracks,Down,1)
+			u.train(Ranged,EnemyDir,10)
+			for(Unit u){
+				u.idle()
+				u.moveAway()
+			}
+		}

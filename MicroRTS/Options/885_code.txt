@@ -1,0 +1,4 @@
+		u.attack(Strongest)
+		for(Unit u){
+			u.idle()
+		}

@@ -1,0 +1,4 @@
+		for(Unit u){
+			u.harvest(10)
+			u.build(Base,Left,1)
+		}

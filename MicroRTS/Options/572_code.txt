@@ -1,0 +1,5 @@
+		u.train(Heavy,EnemyDir,1)
+		for(Unit u){
+			u.moveToUnit(Enemy,Closest)
+			u.idle()
+		}

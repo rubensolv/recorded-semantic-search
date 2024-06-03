@@ -1,0 +1,9 @@
+		u.build(Barracks,Left,1)
+		for(Unit u){
+			u.train(Ranged,EnemyDir,5)
+			u.train(Light,EnemyDir,5)
+			for(Unit u){
+				u.moveToUnit(Enemy,Closest)
+				u.idle()
+			}
+		}

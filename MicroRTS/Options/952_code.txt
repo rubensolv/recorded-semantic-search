@@ -1,0 +1,16 @@
+		u.build(Base,Right,1)
+		u.harvest(1)
+		u.idle()
+		for(Unit u){
+			u.moveToUnit(Enemy,Strongest)
+			for(Unit u){
+				u.train(Worker,Up,5)
+				u.train(Ranged,Up,5)
+				u.train(Heavy,Up,5)
+				for(Unit u){
+					u.moveToUnit(Enemy,LessHealthy)
+					u.idle()
+					u.moveAway()
+				}
+			}
+		}

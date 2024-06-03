@@ -1,0 +1,4 @@
+		for(Unit u){
+			u.harvest(2)
+			u.moveToUnit(Ally,Closest)
+		}

@@ -1,0 +1,5 @@
+		u.harvest(3)
+		for(Unit u){
+			u.moveToUnit(Enemy,Closest)
+			u.idle()
+		}

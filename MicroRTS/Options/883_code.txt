@@ -1,0 +1,6 @@
+		u.train(Worker,Up,5)
+		u.train(Ranged,EnemyDir,10)
+		for(Unit u){
+			u.moveToUnit(Enemy,Closest)
+			u.idle()
+		}

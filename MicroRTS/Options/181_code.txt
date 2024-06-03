@@ -1,0 +1,16 @@
+		for(Unit u){
+			u.harvest(2)
+			u.idle()
+			for(Unit u){
+				u.moveToUnit(Enemy,Closest)
+				u.idle()
+				for(Unit u){
+					u.train(Worker,Left,1)
+					u.train(Ranged,Left,1)
+					u.build(Barracks,Left,1)
+					u.train(Heavy,Left,1)
+					u.harvest(2)
+					u.idle()
+				}
+			}
+		}

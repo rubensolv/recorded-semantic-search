@@ -1,0 +1,16 @@
+		u.build(Barracks,EnemyDir,1)
+		u.train(Worker,Down,1)
+		for(Unit u){
+			u.moveToUnit(Enemy,Closest)
+			u.idle()
+			for(Unit u){
+				u.moveAway()
+				for(Unit u){
+					u.train(Ranged,EnemyDir,5)
+					u.train(Heavy,EnemyDir,5)
+					u.train(Light,EnemyDir,5)
+					u.moveToUnit(Enemy,Strongest)
+					u.idle()
+				}
+			}
+		}

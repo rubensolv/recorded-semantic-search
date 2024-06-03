@@ -1,0 +1,7 @@
+		u.build(Barracks,Right,1)
+		u.train(Worker,Down,5)
+		u.train(Ranged,Down,5)
+		for(Unit u){
+			u.idle()
+			u.moveAway()
+		}

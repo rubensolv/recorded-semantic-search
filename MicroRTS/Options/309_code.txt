@@ -1,0 +1,10 @@
+		for(Unit u){
+			u.train(Ranged,EnemyDir,1)
+			for(Unit u){
+				u.attack(Weakest)
+				for(Unit u){
+					u.moveToUnit(Enemy,Closest)
+					u.idle()
+				}
+			}
+		}

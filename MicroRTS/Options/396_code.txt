@@ -1,0 +1,6 @@
+		u.harvest(5)
+		u.train(Light,EnemyDir,10)
+		for(Unit u){
+			u.moveToUnit(Enemy,Closest)
+			u.idle()
+		}
