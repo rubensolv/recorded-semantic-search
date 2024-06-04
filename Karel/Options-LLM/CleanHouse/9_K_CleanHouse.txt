@@ -1,0 +1,1 @@
+DEF run m( WHILE c( markersPresent c) w( pickMarker w) move WHILE c( frontIsClear c) w( IF c( markersPresent c) i( pickMarker i) move w) m)

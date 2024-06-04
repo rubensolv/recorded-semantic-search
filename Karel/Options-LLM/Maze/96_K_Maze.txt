@@ -1,0 +1,1 @@
+DEF run m( IFELSE c( markersPresent c) i( pickMarker move WHILE c( frontIsClear c) w( move w) i) ELSE e( move WHILE c( frontIsClear c) w( move w) e) putMarker m)

@@ -1,0 +1,1 @@
+DEF run m( putMarker REPEAT R=3 r( move IF c( not c( frontIsClear c) c) i( turnLeft i) r) turnLeft move turnLeft move putMarker turnLeft move turnLeft move putMarker m)

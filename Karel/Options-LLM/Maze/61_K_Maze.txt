@@ -1,0 +1,1 @@
+DEF run m( REPEAT R=8 r( REPEAT R=8 r( putMarker move r) turnLeft move turnLeft REPEAT R=8 r( move r) turnLeft turnLeft r) m)
