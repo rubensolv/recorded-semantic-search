@@ -1,0 +1,1 @@
+DEF run m( REPEAT R=19 r( IF c( leftIsClear c) i( turnLeft i) move turnRight move IF c( frontIsClear c) i( turnRight i) r) m)

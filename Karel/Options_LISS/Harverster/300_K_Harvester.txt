@@ -1,0 +1,1 @@
+DEF run m( IF c( leftIsClear c) i( WHILE c( leftIsClear c) w( IFELSE c( noMarkersPresent c) i( move i) ELSE e( putMarker move e) WHILE c( rightIsClear c) w( move w) w) i) m)

@@ -1,0 +1,1 @@
+DEF run m( REPEAT R=12 r( turnRight IFELSE c( markersPresent c) i( REPEAT R=15 r( move turnRight move move putMarker move r) i) ELSE e( turnRight IF c( leftIsClear c) i( turnLeft move i) e) turnRight turnLeft r) m)

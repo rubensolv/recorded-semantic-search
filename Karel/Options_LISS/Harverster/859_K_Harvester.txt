@@ -1,0 +1,1 @@
+DEF run m( turnLeft move turnRight REPEAT R=16 r( WHILE c( noMarkersPresent c) w( move turnLeft move turnRight w) r) m)

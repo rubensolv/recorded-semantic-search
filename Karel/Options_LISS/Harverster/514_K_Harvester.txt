@@ -1,0 +1,1 @@
+DEF run m( WHILE c( leftIsClear c) w( REPEAT R=14 r( turnLeft IF c( rightIsClear c) i( pickMarker turnRight move i) move turnRight WHILE c( not c( frontIsClear c) c) w( move pickMarker move move w) move r) w) m)

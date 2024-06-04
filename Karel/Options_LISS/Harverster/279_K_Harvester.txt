@@ -1,0 +1,1 @@
+DEF run m( WHILE c( noMarkersPresent c) w( WHILE c( noMarkersPresent c) w( WHILE c( not c( frontIsClear c) c) w( putMarker putMarker turnLeft w) w) REPEAT R=16 r( IF c( frontIsClear c) i( move turnRight i) r) w) move m)

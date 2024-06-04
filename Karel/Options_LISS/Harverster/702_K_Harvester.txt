@@ -1,0 +1,1 @@
+DEF run m( IF c( noMarkersPresent c) i( WHILE c( noMarkersPresent c) w( turnLeft move turnRight IFELSE c( frontIsClear c) i( move i) ELSE e( turnRight e) w) i) m)

@@ -1,0 +1,1 @@
+DEF run m( WHILE c( frontIsClear c) w( REPEAT R=13 r( REPEAT R=7 r( turnRight r) IFELSE c( leftIsClear c) i( move move i) ELSE e( move move e) WHILE c( not c( leftIsClear c) c) w( turnRight w) r) w) m)

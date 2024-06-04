@@ -1,0 +1,1 @@
+DEF run m( turnLeft REPEAT R=18 r( turnLeft WHILE c( rightIsClear c) w( turnRight move move w) r) WHILE c( frontIsClear c) w( turnRight w) WHILE c( frontIsClear c) w( turnLeft w) m)

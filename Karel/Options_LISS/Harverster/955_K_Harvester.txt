@@ -1,0 +1,1 @@
+DEF run m( REPEAT R=19 r( turnLeft REPEAT R=6 r( WHILE c( rightIsClear c) w( putMarker turnRight move turnRight turnLeft move w) IF c( leftIsClear c) i( turnLeft i) r) r) m)

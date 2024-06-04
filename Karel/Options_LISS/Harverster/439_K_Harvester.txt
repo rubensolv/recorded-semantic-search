@@ -1,0 +1,1 @@
+DEF run m( WHILE c( frontIsClear c) w( REPEAT R=0 r( move r) WHILE c( noMarkersPresent c) w( turnRight turnLeft turnRight WHILE c( frontIsClear c) w( move move turnRight turnRight turnLeft w) turnRight turnRight w) w) m)
