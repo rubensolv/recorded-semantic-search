@@ -1,0 +1,1 @@
+DEF run m( pickMarker IF c( frontIsClear c) i( move i) WHILE c( frontIsClear c) w( move w) m)

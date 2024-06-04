@@ -1,0 +1,1 @@
+DEF run m( REPEAT R=14 r( REPEAT R=18 r( IFELSE c( rightIsClear c) i( putMarker pickMarker move pickMarker i) ELSE e( turnLeft move putMarker putMarker turnRight move e) r) r) m)

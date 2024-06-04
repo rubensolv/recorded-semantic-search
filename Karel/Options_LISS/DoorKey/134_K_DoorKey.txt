@@ -1,0 +1,1 @@
+DEF run m( IFELSE c( leftIsClear c) i( turnRight turnRight i) ELSE e( pickMarker e) IF c( frontIsClear c) i( WHILE c( frontIsClear c) w( turnRight w) i) m)

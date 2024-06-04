@@ -1,0 +1,1 @@
+DEF run m( IFELSE c( rightIsClear c) i( move REPEAT R=2 r( turnLeft r) i) ELSE e( WHILE c( markersPresent c) w( IFELSE c( leftIsClear c) i( move i) ELSE e( turnLeft e) w) e) m)

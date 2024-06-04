@@ -1,0 +1,1 @@
+DEF run m( turnLeft WHILE c( frontIsClear c) w( putMarker REPEAT R=18 r( WHILE c( frontIsClear c) w( move move turnRight w) WHILE c( markersPresent c) w( pickMarker w) turnLeft r) w) m)

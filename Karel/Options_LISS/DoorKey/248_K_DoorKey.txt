@@ -1,0 +1,1 @@
+DEF run m( IFELSE c( rightIsClear c) i( pickMarker putMarker turnRight turnRight i) ELSE e( move move move putMarker e) m)

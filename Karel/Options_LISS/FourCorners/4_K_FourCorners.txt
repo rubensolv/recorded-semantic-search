@@ -1,0 +1,1 @@
+DEF run m( REPEAT R=8 r( IFELSE c( frontIsClear c) i( turnRight i) ELSE e( turnLeft move e) turnRight move r) m)

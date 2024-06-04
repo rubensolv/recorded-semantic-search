@@ -1,0 +1,1 @@
+DEF run m( move IF c( frontIsClear c) i( move i) IF c( leftIsClear c) i( putMarker pickMarker i) m)

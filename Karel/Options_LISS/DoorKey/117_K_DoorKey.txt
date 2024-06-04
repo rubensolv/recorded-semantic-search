@@ -1,0 +1,1 @@
+DEF run m( REPEAT R=3 r( IFELSE c( rightIsClear c) i( move turnLeft i) ELSE e( move move e) r) m)
